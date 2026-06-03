@@ -374,6 +374,11 @@ Q.sinhala_nationalism_disp = Math.round(Q.sinhala_nationalism);
 Q.tamil_nationalism_disp = Math.round(Q.tamil_nationalism);
 Q.gov_support_disp = Math.round(Q.gov_support);
 !}
+on-display: {!
+
+
+
+!}
 
 This whole thing needs to be revamped at some point
 
@@ -384,6 +389,127 @@ Support for Tamil nationalism: [+ tamil_nationalism_disp +]%
 Support for Sinhalese nationalism: [+ sinhala_nationalism_disp +]%
 
 Support for the government: [+ gov_support_disp +]%
+
+
+
+= Ethnicity: 
+
+[? if slpp_formed: SLPP: [+ sltamil_slpp +]% ?]
+
+[? if slmp_formed: SLMP: [+ sltamil_slmp +]% ?]
+
+[? if slmc_formed: SLMC: [+ sltamil_slmc +]% ?]
+
+[? if npp_formed: NPP: [+ sltamil_npp +]% ?]
+
+[? if mep_formed: MEP: [+ sltamil_mep +]% ?]
+
+[? if eros_formed: EROS: [+ sltamil_eros +]% ?]
+
+[? if dplf_formed: DPLF: [+ sltamil_dplf +]% ?]
+
+[? if pflt_formed: PFLT: [+ sltamil_pflt +]% ?]
+
+[? if ucpf_formed: UCPF: [+ sltamil_ucpf +]% ?]
+
+
+<table>
+               <tr>
+                  <th></th>     
+               
+                  <td>SLFP</td>
+
+                  <td>JVP</td>
+
+                  <td>CPSL</td>
+
+                  <td>LSSP</td>
+
+                  <td>NSSP</td>
+
+                  <td>TULF</td>
+
+                  <td>CWC</td>
+
+                  <td>UNP</td>
+
+                  <td>ACTC</td>
+
+                  <td>None</td>
+
+                  [? if slpp_formed: <td>SLPP</td> ?]
+
+                  [? if slmp_formed: <td>SLMP</td> ?]
+                  
+                  [? if slmc_formed: <td>SLMC</td> ?]
+
+                  [? if npp_formed: <td>NPP</td> ?]
+
+                  [? if nep_formed: <td>NEP</td> ?]
+
+                  [? if eros_formed: <td>EROS</td> ?]
+
+                  [? if dplf_formed: <td>DPLF</td> ?]
+                  
+                  [? if pflt_formed: <td>PFLT</td> ?]
+
+                  [? if ucpf_formed: <td>UCPF</td> ?]
+
+               </tr>
+               <tr>
+                  <th>Sinhalese</th>
+
+                  <td>[+ sinhala_slfp +]%</td>
+
+                  <td>+[+ sinhala_jvp +]%</td>
+                  <td>[+ sinhala_cpsl +]k</td>
+                  <td>[+ sinhala_lssp +]%</td>
+
+                  <td>+[+ sinhala_nssp +]%</td>
+                  <td>[+ sinhala_tulf +]k</td>
+                  <td>[+ sinhala_cwc +]%</td>
+
+                  <td>+[+ sinhala_unp +]%</td>
+                  <td>[+ sinhala_actc +]k</td>
+
+                  [? if slpp_formed: <td>[+ sinhala_slpp +]</td> ?]
+
+                  [? if slmp_formed: <td>[+ sinhala_slmp +]</td> ?]
+                  
+                  [? if slmc_formed: <td>[+ sinhala_slmc +]</td> ?]
+
+                  [? if npp_formed: <td>[+ sinhala_npp +]</td> ?]
+
+                  [? if nep_formed: <td>[+ sinhala_nep +]</td> ?]
+
+                  [? if eros_formed: <td>[+ sinhala_eros +]</td> ?]
+
+                  [? if dplf_formed: <td>[+ sinhala_dplf +]</td> ?]
+                  
+                  [? if pflt_formed: <td>[+ sinhala_pflt +]</td> ?]
+
+                  [? if ucpf_formed: <td>[+ sinhala_ucpf +]</td> ?]
+
+                  <td>[+ sinhala_nonvoter +]%</td>
+
+               </tr>
+               <tr>
+                  <th>Sri Lankan Tamil</th>
+
+               </tr>
+               <tr>
+                  <th>Muslims</th>
+
+               </tr>
+               <tr>
+                  <th>Indian Tamil</th>
+
+               </tr>
+               <tr>
+                  <th>Others</th>
+
+               </tr>
+            </table>
 
 
 = Ethnicity:
