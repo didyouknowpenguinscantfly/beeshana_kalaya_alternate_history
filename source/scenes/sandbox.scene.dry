@@ -219,34 +219,26 @@ on-arrival: {!
 Q.unemployed -= 5;
 !}
 
-Decreased unemployment by 5%.
-
-@increasescience
-go-to: editeconomy
-on-arrival: {!
-Q.science += 1;
-!}
-
-Increased science by 1.
-
-@decreasescience
-go-to: editeconomy
-on-arrival: {!
-Q.science -= 1;
-!}
-
-Decreased science by 1.
+Decreased unemployment by 5%
 
 @editrelations
 
-- @increasecenterrel: Increase Relations With The Center Party
-- @decreasecenterrel: Decrease Relations With The Center Party
-- @increasekpdrel: Increase Relations With The KPD
-- @decreasekpdrel: Decrease Relations With The KPD
-- @increaseddprel: Increase Relations With The DDP/DStP
-- @decreaseddprel: Decrease Relations With The DDP/DStP
-- @increasedvprel: Increase Relations With The DVP
-- @decreasedvprel: Decrease Relations With The DVP
+- @increaseunprel: Increase Relations With The UNP
+- @decreaseunprel: Decrease Relations With The UNP
+- @increasetulfrel: Increase Relations With The TULF
+- @decreasetulfrel: Decrease Relations With The TULF
+- @increaseactcrel: Increase Relations With The ACTC
+- @decreaseactcrel: Decrease Relations With The ACTC
+- @increasejvprel: Increase Relations With The JVP
+- @decreasejvprel: Decrease Relations With The JVP
+- @increasecpslrel: Increase Relations With The CPSL
+- @decreasecpslrel: Decrease Relations With The CPSL
+- @increaselssprel: Increase Relations With The LSSP
+- @decreaselssprel: Decrease Relations With The LSSP
+- @increasenssprel: Increase Relations With The NSSP
+- @decreasenssprel: Decrease Relations With The NSSP
+- @increasecwcrel: Increase Relations With The CWC
+- @decreasecwcrel: Decrease Relations With The CWC
 - @removedissent: Remove Coalition Dissent
 - @maxdissent: Maximise Coalition Dissent
 - @returnsandbox: Return To Sandbox Menu
@@ -441,14 +433,14 @@ Removed all left strength.
 
 @editcenter
 
-- @add5centerdissent: Add 5 Center Dissent
-- @100centerdissent: Maximum Center Dissent
-- @subtract5centerdissent: Remove 5 Center Dissent
-- @removecenterdissent: Remove All Center Dissent
-- @add5centerstrength: Add 5 Center Strength
-- @100centerstrength: Maximum Center Strength
-- @subtract5centerstrength: Remove 5 Center Strength
-- @removecenterstrength: Remove Center Strength
+- @add5nationalistdissent: Add 5 Nationalist Dissent
+- @100nationalistdissent: Maximum Nationalist Dissent
+- @subtract5nationalistdissent: Remove 5 Nationalist Dissent
+- @removenationalistdissent: Remove All Nationalist Dissent
+- @add5nationaliststrength: Add 5 Nationalist Strength
+- @100nationaliststrength: Maximum Nationalist Strength
+- @subtract5nationaliststrength: Remove 5 Nationalist Strength
+- @removenationaliststrength: Remove Nationalist Strength
 - @returnsandbox: Return To Sandbox Menu
 
 @add5centerdissent
