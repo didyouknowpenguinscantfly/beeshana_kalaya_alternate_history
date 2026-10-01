@@ -43,11 +43,8 @@ Made advisor actions available.
 
 @editfactions
 
-- @editleft: Edit Left Faction Of SPD
-- @editcenter: Edit Center Faction of SPD
-- @editlabor: Edit Labor Faction of SPD
-- @editreformist: Edit Reformist Faction of SPD
-- @editneorevisionist: Edit Neorevisionist Faction of SPD
+- @editleft: Edit Left Faction Of SLFP
+- @editnationalist: Edit Nationalist Faction of SFLP
 - @returnsandbox: Return To Sandbox
 
 @editresources
@@ -174,8 +171,6 @@ Removed 100 budget from the country's stockpile. This doesn't go to the homeless
 - @decreaseinflation: Decrease Inflation by 5%
 - @increaseunemployment: Increase Unemployment by 5%
 - @decreaseunemployment: Decrease Unemployment by 5%
-- @increasescience: Increase Science by 1
-- @decreasescience: Decrease Science by 1
 - @returnsandbox: Return To Sandbox Menu
 
 @increasegrowth
